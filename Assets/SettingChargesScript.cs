@@ -345,6 +345,8 @@ public class SettingChargesScript : MonoBehaviour
                 yield break;
             }
             yield return null;
+            yield return "strike";
+            yield return "solve";
             Reset.OnInteract();
             yield break;
         }
